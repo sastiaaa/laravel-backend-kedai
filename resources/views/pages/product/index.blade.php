@@ -70,10 +70,10 @@
                                                         {{-- {{ $product->price }} --}}
                                                         <td>   {{ sprintf('Rp. %s', number_format($product->price)) }}
                                                     </td>
+
                                                     <td>
                                                         @if ($product->image)
-                                                            <img src="{{ asset('storage/products/'.$product->image) }}" alt=""
-                                                                width="100px" class="img-thumbnail">
+                                                        <img src="{{ asset('storage/products/'.$product->image) }}" alt="" width="100px" class="img-thumbnail">
                                                         @else
                                                             <span class="badge badge-danger">No Image</span>
                                                         @endif
