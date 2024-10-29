@@ -63,7 +63,7 @@
                                         <span class="selectgroup-button">Food</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="Drink" {{ $product->category == 'Drink' ? 'selected' : '' }} class="selectgroup-input">
+                                        <input type="radio" name="category" value="Drinks" {{ $product->category == 'Drinks' ? 'selected' : '' }} class="selectgroup-input">
                                         <span class="selectgroup-button">Drink</span>
                                     </label>
                                     <label class="selectgroup-item">
