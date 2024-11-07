@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
-
 class AuthController extends Controller
 {
     /**
@@ -83,7 +82,7 @@ class AuthController extends Controller
     {
         $request->user()->currentAccessToken()->delete();
         return response()->json([
-            'massage'=>'Logout Success',
-        ]);
-    }
+            'message' => 'Logout success',
+   ]);
+}
 }
